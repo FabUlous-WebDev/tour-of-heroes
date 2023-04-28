@@ -1,1 +1,46 @@
 /* You can add global styles to this file, and also import other style files */
+blockquote {
+    font-size: 3.2em; 
+    font-style: italic; 
+    padding: 1em; 
+    border-left: 4px solid #ccc; 
+    background-color: var(--hero-color); 
+    margin: 1em 0; 
+  }
+  
+  blockquote p:first-child {
+    font-size: 1.5em; 
+    font-weight: bold; 
+  }
+
+
+
+.heroes .vilains {
+    margin: 0 0 2em 0;
+    list-style-type: none;
+    padding: 0;
+    width: 22em;
+}
+
+.heroes .vilains li {
+    cursor: pointer;
+    position: relative;
+    left: 0;
+    background-color: #EEE;
+    margin: .5em;
+    padding: .3em 0;
+    height: 1.6em;
+    border-radius: 4px;
+}
+
+.heroes .vilains li.selected:hover {
+    background-color: #BBD8DC !important;
+    color: white;
+}
+
+
+.heroes .vilains .text {
+    position: relative;
+    top: -3px;
+}
+
