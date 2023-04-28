@@ -8,8 +8,8 @@ import Hero from '../types/hero.type';
 })
 export class HeroesListComponent implements OnInit {
   heroes = Hero[''] = [
-    { id : 1, name : 'Batman', superpower : 'Richesse', faiblesse : 'Il est son propre point faible.' },
-    { id : 2, name : 'Superman', superpower : 'Force', faiblesse : 'La cryptonite est son point faible'  },
+    { id : 1, name : 'Batman', superpower : 'Richesse', faiblesse : 'Il est son propre point faible.', citation : '"La colère décuple ta puissance, mais si tu la laisses te dominer, elle va te détruire."' },
+    { id : 2, name : 'Superman', superpower : 'Force', faiblesse : 'La cryptonite est son point faible', citation : '"Tu donneras au peuple de la terre, un idéal à atteindre, ils se ruront sur tes pas, ils trébucheront, ils tomberont, mais le moment venu, ils te rejoindront dans le soleil, le moment venu, tu les aideras à accomplir des miracles."'  },
     { id : 3, name : 'Spiderman', superpower : 'Toile d\'araignée', faiblesse : 'Mary-Jane est son point faible.', citation : '« Nous sommes ce que nous choisissons d\'être. »'  },
     ];
 
