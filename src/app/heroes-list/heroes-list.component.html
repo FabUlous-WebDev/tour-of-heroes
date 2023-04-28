@@ -1,0 +1,12 @@
+<ul class="heroes">
+  <li *ngFor="let hero of heroes" [class.selected]="selectedHero == hero" (click)="selectHero(hero)"><span
+      class="badge">{{ hero.id }}</span> {{ hero.name }} ({{hero.superpower}})
+  </li>
+</ul>
+
+<div *ngIf="selectedHero">
+  <h2>Détails de {{selectedHero.name | uppercase}} : </h2>
+  <div><span>Détail important: </span>{{selectedHero.faiblesse}}</div>
+  <div class="citation"><span id="citation">Citation: </span><blockquote>{{selectedHero.citation}}</blockquote></div>
+</div>
+

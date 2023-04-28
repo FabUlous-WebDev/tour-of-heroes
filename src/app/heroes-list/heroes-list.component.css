@@ -1,0 +1,73 @@
+:root {
+    --hero-color : #607D8B;
+}
+
+.selected {
+    background-color: #CFD8DC !important;
+    color: white;
+}
+
+
+blockquote {
+    font-size: 3.2em; /* Augmente la taille de la police de la citation */
+    font-style: italic; /* Donne un style italique à la citation */
+    padding: 1em; /* Ajoute de la marge intérieure pour séparer la citation du reste du contenu */
+    border-left: 4px solid #ccc; /* Ajoute une bordure sur le côté gauche de la citation */
+    background-color: var(--hero-color); /* Ajoute une couleur de fond légère pour la citation */
+    margin: 1em 0; /* Ajoute de la marge autour de la citation pour la séparer du contenu environnant */
+  }
+  
+  blockquote p:first-child {
+    font-size: 1.5em; /* Augmente la taille de la police du premier paragraphe de la citation */
+    font-weight: bold; /* Donne un style gras au premier paragraphe de la citation */
+  }
+
+.heroes {
+    margin: 0 0 2em 0;
+    list-style-type: none;
+    padding: 0;
+    width: 22em;
+}
+
+.heroes li {
+    cursor: pointer;
+    position: relative;
+    left: 0;
+    background-color: #EEE;
+    margin: .5em;
+    padding: .3em 0;
+    height: 1.6em;
+    border-radius: 4px;
+}
+
+.heroes li.selected:hover {
+    background-color: #BBD8DC !important;
+    color: white;
+}
+
+.heroes li:hover {
+    color: var(--hero-color);
+    background-color: #DDD;
+    left: .1em;
+}
+
+.heroes .text {
+    position: relative;
+    top: -3px;
+}
+
+.heroes .badge {
+    display: inline-block;
+    font-size: small;
+    color: white;
+    padding: 0.8em 0.7em 0 0.7em;
+    background-color: var(--hero-color);
+    line-height: 1em;
+    position: relative;
+    left: -1px;
+    top: -4px;
+    height: 1.8em;
+    margin-right: .8em;
+    border-radius: 4px 0 0 4px;
+}
+
