@@ -1,27 +1,42 @@
-# TourOfHeroes
+## Tour of Heroes
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.3.
+Tour of Heroes est une application Angular qui vous permet de lister des super-héros et des super-méchants, et d'afficher des détails les concernant.
 
-## Development server
+## Fonctionnalités
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Liste de super-héros et de super-méchants
+Affichage des détails sur chaque personnage
+Ajout de nouveaux personnages
+Modification des personnages existants
+Suppression de personnages
 
-## Code scaffolding
+## Installation
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Clonez le dépôt Git sur votre ordinateur local
+Ouvrez une console et naviguez jusqu'au répertoire du projet
+Exécutez la commande npm install pour installer les dépendances
+Exécutez la commande ng serve pour lancer l'application.
 
-## Build
+## Utilisation
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Ouvrez un navigateur web et accédez à l'adresse http://localhost:4200 
+Explorez la liste des personnages et cliquez sur un personnage pour afficher ses détails
+Utilisez le formulaire d'ajout pour ajouter un nouveau personnage
+Cliquez sur le bouton "Modifier" pour modifier un personnage existant
+Cliquez sur le bouton "Supprimer" pour supprimer un personnage existant
 
-## Running unit tests
+## Contribuer
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Si vous souhaitez contribuer à ce projet, vous pouvez :
 
-## Running end-to-end tests
+Proposer des améliorations ou des corrections de bugs en créant une nouvelle Pull Request
+Signaler des problèmes en créant une nouvelle Issue
+Partager ce projet avec d'autres personnes intéressées
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Licence
 
-## Further help
+Ce projet est sous licence MIT. Veuillez consulter le fichier LICENSE pour plus d'informations.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Contact
+
+Si vous avez des questions ou des commentaires sur ce projet, vous pouvez me contacter à l'adresse email suivante : fabienpierrard@hotmail.com.
